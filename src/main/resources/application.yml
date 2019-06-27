@@ -1,0 +1,4 @@
+# SpringBoot底层会把application.yml文件解析为application.properties
+spring:
+  profiles:
+    active: master

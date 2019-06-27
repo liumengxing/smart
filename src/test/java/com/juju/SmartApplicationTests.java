@@ -1,4 +1,4 @@
-package com.juju.smart;
+package com.juju;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

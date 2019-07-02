@@ -1,11 +1,11 @@
 package com.juju.biz;
 
-import java.util.List;
+import com.juju.entity.User;
 
 /**
  * @author juju
  * @date 2019/06/27
  */
 public interface UserBiz {
-    List<String> getCharacters(String name);
+    User findById(Long id);
 }

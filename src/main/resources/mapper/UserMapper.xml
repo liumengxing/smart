@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.juju.dao.UserMapper">
+    <resultMap id="userMap" type="com.juju.entity.User">
+        <id property="id" jdbcType="bigint" column="fid"/>
+        <result property="name" jdbcType="varchar" column="fname"/>
+    </resultMap>
+
+    <select id="getCount" resultType="java.lang.Long">
+        select count(1) from t_user
+    </select>
+
+    <select id="findById" parameterType="java.lang.Long" resultMap="userMap">
+        select fid, fname
+        from t_user
+        where fid = #{id}
+    </select>
+</mapper>

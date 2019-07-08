@@ -1,6 +1,6 @@
-package com.juju.service;
+package com.juju.smart.service;
 
-import com.juju.entity.User;
+import com.juju.smart.entity.User;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;

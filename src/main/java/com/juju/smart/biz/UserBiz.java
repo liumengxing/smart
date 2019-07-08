@@ -1,6 +1,6 @@
-package com.juju.biz;
+package com.juju.smart.biz;
 
-import com.juju.entity.User;
+import com.juju.smart.entity.User;
 
 /**
  * @author juju

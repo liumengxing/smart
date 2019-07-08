@@ -1,8 +1,8 @@
-package com.juju.biz.impl;
+package com.juju.smart.biz.impl;
 
-import com.juju.biz.UserBiz;
-import com.juju.dao.UserMapper;
-import com.juju.entity.User;
+import com.juju.smart.biz.UserBiz;
+import com.juju.smart.dao.UserMapper;
+import com.juju.smart.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

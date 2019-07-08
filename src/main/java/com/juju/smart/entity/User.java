@@ -1,4 +1,4 @@
-package com.juju.entity;
+package com.juju.smart.entity;
 
 /**
  * @author juju

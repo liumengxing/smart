@@ -1,8 +1,8 @@
-package com.juju.controller;
+package com.juju.smart.controller;
 
-import com.juju.biz.UserBiz;
-import com.juju.entity.User;
-import com.juju.service.UserService;
+import com.juju.smart.biz.UserBiz;
+import com.juju.smart.entity.User;
+import com.juju.smart.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;

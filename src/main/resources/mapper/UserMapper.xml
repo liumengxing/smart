@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.juju.dao.UserMapper">
-    <resultMap id="userMap" type="com.juju.entity.User">
+<mapper namespace="com.juju.smart.dao.UserMapper">
+    <resultMap id="userMap" type="com.juju.smart.entity.User">
         <id property="id" jdbcType="BIGINT" column="fid"/>
         <result property="name" jdbcType="VARCHAR" column="fname"/>
     </resultMap>

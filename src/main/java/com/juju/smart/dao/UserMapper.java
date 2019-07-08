@@ -1,6 +1,6 @@
-package com.juju.dao;
+package com.juju.smart.dao;
 
-import com.juju.entity.User;
+import com.juju.smart.entity.User;
 import org.apache.ibatis.annotations.Param;
 
 public interface UserMapper {

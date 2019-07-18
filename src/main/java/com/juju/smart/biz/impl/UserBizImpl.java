@@ -17,7 +17,7 @@ public class UserBizImpl implements UserBiz {
 
     @Override
     public User findById(Long id) {
-        Long count =userMapper.getCount();
+        Long count = userMapper.getCount();
         return userMapper.findById(id);
     }
 }

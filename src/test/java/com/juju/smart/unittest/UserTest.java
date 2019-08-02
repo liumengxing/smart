@@ -1,7 +1,8 @@
-package com.juju.smart;
+package com.juju.smart.unittest;
 
 import com.juju.common.entity.JujuRequest;
 import com.juju.common.unittest.UnitTestTemplate;
+import org.junit.After;
 import org.junit.Before;
 import org.junit.FixMethodOrder;
 import org.junit.Test;
@@ -57,5 +58,10 @@ public class UserTest {
                         .andDo(MockMvcResultHandlers.print());
             }
         }.run();
+    }
+
+    @After
+    public void after() throws Exception{
+        System.out.println("after print juju");
     }
 }

@@ -22,6 +22,12 @@ spring:
     password: Juju
     driver-class-name: com.mysql.cj.jdbc.Driver
 
+  redis:
+    database: 0
+    host: 10.211.55.6
+    port: 6379
+    timeout: 1000
+
 hikari:
   max-lifetime: 28770000
   maximum-pool-size: 15
@@ -38,6 +44,8 @@ hikari:
 
 mybatis:
   mapper-locations: classpath:mapper/*.xml
+
+
 
 
 

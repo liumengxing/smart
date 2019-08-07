@@ -14,9 +14,6 @@ spring:
   application:
     name: juju-smart
   datasource:
-#    url: jdbc:mysql://172.20.177.39:3306/base_data?characterEncoding=utf8&characterSetResults=utf8&useSSL=false
-#    username: basedata
-#    password: basedata
     url: jdbc:mysql://10.211.55.6:3306/smart?characterEncoding=utf8&characterSetResults=utf8&useSSL=false&allowPublicKeyRetrieval=true
     username: juju2
     password: Juju
@@ -26,7 +23,7 @@ spring:
     database: 0
     host: 10.211.55.6
     port: 6379
-    timeout: 1000
+    timeout: 1000ms
 
 hikari:
   max-lifetime: 28770000

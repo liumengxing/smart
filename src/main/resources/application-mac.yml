@@ -18,7 +18,6 @@ spring:
     username: juju2
     password: Juju
     driver-class-name: com.mysql.cj.jdbc.Driver
-
   redis:
     database: 0
     host: 10.211.55.6

@@ -18,6 +18,12 @@ spring:
     username: basedata
     password: basedata
     driver-class-name: com.mysql.cj.jdbc.Driver
+  redis:
+    database: 0
+    host: 172.20.181.100
+    port: 63791
+    timeout: 1000ms
+    password: 123456
 
 hikari:
   max-lifetime: 28770000

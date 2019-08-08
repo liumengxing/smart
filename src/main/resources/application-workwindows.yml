@@ -18,6 +18,7 @@ spring:
     username: basedata
     password: basedata
     driver-class-name: com.mysql.cj.jdbc.Driver
+
   redis:
     database: 0
     host: 172.20.181.100

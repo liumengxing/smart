@@ -1,4 +1,4 @@
-package com.juju.smart.request;
+package com.juju.smart.api.request;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import io.swagger.annotations.ApiModel;

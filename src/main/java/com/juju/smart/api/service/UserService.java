@@ -1,4 +1,4 @@
-package com.juju.smart.service;
+package com.juju.smart.api.service;
 
 import com.juju.smart.entity.User;
 import org.springframework.stereotype.Service;

@@ -4,6 +4,7 @@ import com.fasterxml.jackson.annotation.JsonInclude;
 import com.juju.common.entity.JujuRequest;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
+import lombok.Getter;
 
 import java.io.Serializable;
 
@@ -12,23 +13,9 @@ import java.io.Serializable;
 public class UserRequest implements JujuRequest, Serializable {
 
     @ApiModelProperty(value = "用户id", required = true)
+    @Getter
     private Long id;
     @ApiModelProperty(value = "用户名称", required = true)
+    @Getter
     private String name;
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
 }

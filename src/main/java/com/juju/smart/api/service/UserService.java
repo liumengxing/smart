@@ -14,6 +14,4 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public interface UserService {
     @RequestMapping(value = "user/{id}", method = RequestMethod.GET)
     UserResponse findById(@PathVariable("id") Long id);
-
-
 }

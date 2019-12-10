@@ -101,7 +101,7 @@
             <groupId>com.juju</groupId>
             <artifactId>common</artifactId>
             <version>0.0.1-SNAPSHOT</version>
-            <scope>test</scope>
+            <!--<scope>test</scope>-->
         </dependency>
 
     </dependencies>

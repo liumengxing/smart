@@ -1,3 +1,8 @@
+juju:
+  name: juju
+  age: secret
+  character: beautiful.smart.elegant
+
 server:
   port: 8080
 
